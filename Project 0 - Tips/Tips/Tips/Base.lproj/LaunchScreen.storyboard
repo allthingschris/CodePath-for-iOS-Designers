@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyT-8W-wth">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6i-lh-PsB">
+                                        <rect key="frame" x="84" y="237" width="152" height="94"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="80"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.11764705882352941" green="0.72941176470588232" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="b6i-lh-PsB" firstAttribute="centerY" secondItem="yyT-8W-wth" secondAttribute="centerY" id="7Wx-LX-WAP"/>
+                                    <constraint firstItem="b6i-lh-PsB" firstAttribute="centerX" secondItem="yyT-8W-wth" secondAttribute="centerX" id="PVV-cW-a1w"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yyT-8W-wth" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="E35-uJ-ITm"/>
+                            <constraint firstItem="yyT-8W-wth" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="HZR-LZ-iTo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yyT-8W-wth" secondAttribute="bottom" id="QAn-tr-UEC"/>
+                            <constraint firstAttribute="trailing" secondItem="yyT-8W-wth" secondAttribute="trailing" id="xHO-AL-oRv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="355"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.1333333333" green="0.69019607839999997" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+</document>
