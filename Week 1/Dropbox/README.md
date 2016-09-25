@@ -1,5 +1,6 @@
 # Dropbox
-Working on Week 1's project: Dropbox
+
+The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
 Time spent: 8 hours in total (here and there... please ignore the use of "fuck" in any comments or class names ;)
 
@@ -14,6 +15,16 @@ Time spent: 8 hours in total (here and there... please ignore the use of "fuck" 
 * Required: User can follow the sign in flow.
   * Required: User can tap the area for "Having trouble signing in?"
   * Required: User can log out from the Settings screen.
+  
+- [X] User can tap through the 3 welcome screens.
+- [X] User can follow the create user flow.
+  - [X] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
+  - [X] Before creating the account, user can choose to read the terms of service.
+  - [X] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+  - [X] User can log out from the Settings screen.
+- [X] User can follow the sign in flow.
+  - [X] User can tap the area for "Having trouble signing in?".
+  - [X] User can log out from the Settings screen.
 
 ## Optional User Stories (because I tell myself I'm a rockstar)
 
