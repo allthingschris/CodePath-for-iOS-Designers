@@ -7,15 +7,15 @@ Time spent: 8 hours in total (here and there... please ignore the use of "fuck" 
 
 * Required: User can tap through 3 welcome screens. :)
 * Required: User can follow the create user flow:
-..* Required: On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
-..* Required: Before creating the account, user can choose to read the terms of service.
-..* Required: After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
-..* Required: User can log out from the Settings screen.
+  * Required: On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
+  * Required: Before creating the account, user can choose to read the terms of service.
+  * Required: After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+  * Required: User can log out from the Settings screen.
 * Required: User can follow the sign in flow.
-⋅⋅* Required: User can tap the area for "Having trouble signing in?"
-⋅⋅* Required: User can log out from the Settings screen.
+  * Required: User can tap the area for "Having trouble signing in?"
+  * Required: User can log out from the Settings screen.
 
-## Completed Optional User Stories because I tell myself I'm a rockstar
+## Optional User Stories (because I tell myself I'm a rockstar)
 
 * Optional: User can actually type in the forms and tap to dismiss the keyboard.
 * Optional: User can swipe through the welcome screens instead of just tapping them.
