@@ -75,3 +75,5 @@ Here's a walkthrough of implemented user stories:
 ## Notes or Challenges
 
 Calling other methods, but I learned how to do that! :) And starting to get more comfortable with loops. It's just not how my brain thinks, but eventually I get there. 
+
+Also, the initial values for the tiles on the intro view weren't correct for my build, so I manually adjusted. ... I... eyeballed it. lol
