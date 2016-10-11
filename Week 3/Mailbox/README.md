@@ -47,4 +47,4 @@ Here's a walkthrough of implemented user stories. Any pauses during the List Vie
 
 [![Mailbox](http://i.imgur.com/VOQNrAl.png)](https://www.youtube.com/watch?v=QGW3_T_RB0c "Mailbox")
 
-<img src='http://i.imgur.com/RBOkAoE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/RBOkAoE.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
