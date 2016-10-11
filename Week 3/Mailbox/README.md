@@ -43,8 +43,8 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories. Any pauses during the List View segments are when I'm invoking the keyboard shortcut for Shake to Undo.
 
-[![Mailbox](http://i.imgur.com/ZLUm3u0.png)](https://youtu.be/yaU1hNtMAAI "Mailbox")
+[![Mailbox](http://i.imgur.com/VOQNrAl.png)](https://www.youtube.com/watch?v=QGW3_T_RB0c "Mailbox")
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/RBOkAoE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
