@@ -10,6 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var fadeTransition: FadeTransition!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +21,24 @@ class HomeViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Access the ViewController that you will be transitioning too, a.k.a, the destinationViewController.
+        let destinationViewController = segue.destination
+        
+        // Set the modal presentation style of your destinationViewController to be custom.
+        destinationViewController.modalPresentationStyle = UIModalPresentationStyle.custom
+        
+        // Create a new instance of your fadeTransition.
+        fadeTransition = FadeTransition()
+        
+        // Tell the destinationViewController's  transitioning delegate to look in fadeTransition for transition instructions.
+        destinationViewController.transitioningDelegate = fadeTransition
+        
+        // Adjust the transition duration. (seconds)
+        fadeTransition.duration = 0.5
     }
     
 
