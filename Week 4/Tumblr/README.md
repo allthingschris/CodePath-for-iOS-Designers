@@ -29,9 +29,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 Here's a walkthrough of implemented user stories:
 
 [![Tumblr](http://i.imgur.com/0438hP3.png)](https://youtu.be/hvRzM8s-4Fo "Tumblr")
-<img src='http://i.imgur.com/06TRW97.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF is here: http://i.imgur.com/06TRW97.gif
 
 ## Notes
 
