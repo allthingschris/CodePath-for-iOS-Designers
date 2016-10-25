@@ -59,10 +59,10 @@ class FacebookTransition: BaseTransition {
     
     override func dismissTransition(containerView: UIView, fromViewController: UIViewController, toViewController: UIViewController) {
   
-        let tabViewController = fromViewController as! UITabBarController
+        let tabViewController = toViewController as! UITabBarController
         let navigationController = tabViewController.selectedViewController as! UINavigationController
         let newsFeedViewController = navigationController.topViewController as! NewsFeedViewController
-        let photosViewController = toViewController as! PhotosViewController
+        let photosViewController = fromViewController as! PhotosViewController
         
         newsFeedViewController.selectedImageView.isHidden = true
         photosViewController.imageView.isHidden = true
